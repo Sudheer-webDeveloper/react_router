@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(248, 223, 182);
+}
+.main-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px 0 30px;
+    width: 300px;
+    background: white;
+    padding: 10px 200px;
+    border-radius: 4px;
+}
+.iamgeContainer img{
+   width: 300px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   height: 200px;
+}
+
+.second{
+    text-transform: capitalize;
+    display: flex;
+    margin-bottom: 10px;
+}
+.second h5{
+    margin: 0 40px 0 0;
+}
+.third button{
+    color: white;
+    border-radius: 4px;
+    background: rgb(252, 147, 35);
+    width: 120px;
+    padding: 8px 5px;
+    border: none;
+    outline: none;
+}
+
+
+.main-link{
+    display: inline-block;
+    background-color: rgb(248, 10, 10);
+    margin: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+.normal-link{
+    margin-right: 10px;
+    margin-left: 10px;
+}
